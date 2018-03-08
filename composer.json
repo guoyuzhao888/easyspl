@@ -1,0 +1,19 @@
+{
+    "name": "guoyuzhao/easy-spl",
+    "description": "Best used Spl",
+    "type": "library",
+    "authors": [
+        {
+            "name": "郭玉朝",
+            "email": "2788828128@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasySpl\\": "src/"
+        }
+    }
+}
