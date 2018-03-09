@@ -1,10 +1,10 @@
 {
-    "name": "guoyuzhao/easy-spl",
-    "description": "Best used Spl",
+    "name": "tuzi/easyspl",
+    "description": "Best used Spl.",
     "type": "library",
     "authors": [
         {
-            "name": "郭玉朝",
+            "name": "tuzi",
             "email": "2788828128@qq.com"
         }
     ],
@@ -13,7 +13,8 @@
     },
     "autoload": {
         "psr-4": {
-            "EasySpl\\": "src/"
+            "EasySpl\\": "src/",
+            "EasySpl\\Test\\": "test/"
         }
     }
 }
