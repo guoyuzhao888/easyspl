@@ -1,12 +1,13 @@
 <?php
-namespace EasySpl\DataStructure;
-
-use EasySpl\EasyTrait\DataStructureTrait;
 /**
  * User: 郭玉朝
  * CreateTime: 2018/3/7 下午6:11
  * Description: 双向链表
  */
+namespace EasySpl\DataStructure;
+
+use EasySpl\EasyTrait\DataStructureTrait;
+
 class EasyDoublyLinkedList extends \SplDoublyLinkedList
 {
     use DataStructureTrait;

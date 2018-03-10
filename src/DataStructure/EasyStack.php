@@ -5,7 +5,6 @@
  * Description: 堆栈
  */
 namespace EasySpl\DataStructure;
-
 use EasySpl\EasyTrait\DataStructureTrait;
 class EasyStack extends \SplStack
 {
