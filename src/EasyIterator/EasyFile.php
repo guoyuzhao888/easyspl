@@ -46,7 +46,7 @@ Class EasyFile
      * @param $funcNames
      * @return array
      */
-    public function getFilesInfo(string $funcNames):object
+    public function getFilesInfo(array $funcNames):object
     {
         foreach ($this->files as $file)
         {
@@ -141,6 +141,9 @@ Class EasyFile
 
     public function __destruct()
     {
-        fclose($this->openFile);
+        if(strlen($this->openFile) > 0)
+        {
+            fclose($this->openFile);
+        }
     }
 }
